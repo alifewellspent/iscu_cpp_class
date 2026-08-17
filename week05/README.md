@@ -45,31 +45,6 @@ for (int count = 0; count < quantity; count++) {
 
 이번 실습에서 직접 작성할 코드는 이 부분뿐입니다.
 
-## 사용해야 할 vector 기능
-
-`push_back()`은 `vector`의 맨 뒤에 원소 하나를 추가합니다.
-
-기본 형태:
-
-```cpp
-vector이름.push_back(추가할값);
-```
-
-예:
-
-```cpp
-std::vector<int> numbers;
-
-numbers.push_back(10);
-numbers.push_back(20);
-```
-
-저장 결과:
-
-```text
-numbers = {10, 20}
-```
-
 ## `cart.size()`로 저장 결과 확인
 
 메뉴를 추가한 뒤 프로그램은 현재 장바구니에 저장된 원소 수를 출력합니다.
